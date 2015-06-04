@@ -12,9 +12,10 @@ class TtApp < Sinatra::Base
   enable :method_override
   set :public_folder, 'public'
 
-  # get '/' do
-  #   "<h1>TT</h1>"
-  # end
+  # home...
+  get '/' do
+    "<h1>TT</h1>"
+  end
 
 end
 
