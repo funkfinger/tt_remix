@@ -5,6 +5,8 @@ require 'sinatra/base'
 require 'plivo'
 
 require_relative 'models/init_models'
+require_relative 'routes/routes'
+require_relative 'helpers/helpers'
 
 
 class TtApp < Sinatra::Base
@@ -18,8 +20,6 @@ class TtApp < Sinatra::Base
   end
 
 end
-
-
 
 
 

@@ -11,6 +11,13 @@ class PhoneTest < TtTests
     refute n.active
   end
   
+  def test_phone_is_unique
+    n = Phone.new(:number => 12223334444)
+    assert n.save
+    n = Phone.new(:number => 12223334444)
+    refute n.save
+  end
+  
   def test_phone_has_numbers
     n = Phone.new(:number => 12223334444)
     assert n.save
