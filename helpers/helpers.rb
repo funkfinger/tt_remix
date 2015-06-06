@@ -3,4 +3,3 @@ class Object
     self.nil? || self == ""
   end
 end
-

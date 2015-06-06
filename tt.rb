@@ -13,6 +13,11 @@ class TtApp < Sinatra::Base
 
   enable :method_override
   set :public_folder, 'public'
+  
+  def get_keyword(text)
+    text.match(/^\s*(\S*)/)
+    $1
+  end
 
   # home...
   get '/' do
