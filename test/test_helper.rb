@@ -15,4 +15,9 @@ class TtTests < MiniTest::Test
   def setup
     DataMapper.auto_migrate!
   end
+  
+  def test_correct_environment
+    assert_equal 'tongue_tied_test', ENV['DB_NAME']
+  end
+  
 end
