@@ -10,4 +10,5 @@ gem 'plivo'
 
 group :test do
   gem 'rack-test', require: "rack/test"
+  gem 'minitest'
 end
