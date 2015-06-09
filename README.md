@@ -1,4 +1,4 @@
-RE-MIX!!!:
+Tongue Tied
 --------------------
 
 - ~~screw telephony accounts for now, just use one and set it...~~
@@ -13,6 +13,8 @@ RE-MIX!!!:
 - there still needs to be system keywords
 - api is all we need, no interface for now
 - omniauth isn't necessary now
+
+- move all of this to JavaScript
 
 
 LICENSE
